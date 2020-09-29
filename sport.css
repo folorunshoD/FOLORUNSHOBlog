@@ -1,0 +1,284 @@
+body{
+    margin: 0px;
+}
+#logo{
+width: 100px;
+height: 100px;
+background:hsla(2, 96%, 41%, 0.918);
+text-align: center;
+font-size: 64px;
+line-height: 100px;
+border-radius: 50px;
+-webkit-border-radius:50px;
+-moz-border-radius:50px;
+float: left;
+/*to make a circle add border radius*/
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    
+}
+ul{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: table;
+    height: 100px;
+}
+nav ul {
+    float: left;
+    padding: 0 0 0 50px;
+}
+nav ul li {
+display: table-cell;
+vertical-align: middle;
+padding: 20px;
+}
+header{
+
+background:#8a0303;
+padding: 20px 0;
+}
+.clearfix{
+    clear: both;
+}
+#main {
+    background: #ebebeb;
+    padding: 40px 0;
+}
+/*ng clearfix the background was affected by the  floating which makes it small it can be removed by addi*/
+.content{
+    width: 980px;
+    margin: 0 auto;
+    
+}
+#main .articles{
+    float: left;
+    width: 650px;
+    background: white;
+}
+#main .articles .excerpt {
+    float: right;
+    width: 320px;
+}
+#main  .sidebar{
+    float:right;
+    width: 260px;
+    min-height: 100px;
+    background:white;
+    padding: 5px;
+}
+
+/* we want to add aborder ontop and make the text grey*/
+#main .articles .bottom {
+    border-top: 1px solid #999;
+    color: teal;
+    padding: 20px 0;
+    width: 100%;
+}
+#main .articles .bottom >div {
+float: left;
+padding: 0 20px;
+}
+.hi{
+    width: 300px;
+    height: 200px;
+}
+#main .articles .bottom .comments {
+    float: right;
+}
+#main .articles .inner {
+    padding: 10px;
+}
+#main .articles h2 {
+    margin: 0 0 20;
+}
+#main .sidebar input {
+padding: 10px;
+padding-right: 30px;
+    border: 1px solid #ddd;
+    width: 220px;
+}
+#main .article{
+margin-bottom: 20px;
+}
+#main .sidebar form{
+    position: relative;
+    
+}
+#main .sidebar input[type=submit]{
+background:url(icons.png);
+width: 25px;
+height:25px;
+border: none;
+padding: 0px;
+text-indent: -9999px;
+position: absolute;
+top: 5px;
+right: 0px;
+
+
+
+    }
+    #main .sidebar a{
+        color: #158ebf;
+    }
+    #main .sidebar ul li {
+        padding: 10px 0;
+    }
+    footer{
+        padding: 20px 0;
+    }
+    footer .copyright{
+        float: left;
+    }
+    footer .contact {
+        float: right;
+    }
+    footer a {
+        color: #8a0303;
+    }
+    #sidenav {
+        position: fixed;
+       right:-2px;
+        background: #8a0303;
+
+    
+    }
+    #sidenav.active{
+        right:100px;
+    }
+    sidebar ul li {
+        color:red;
+        list-style: none;
+        padding: 20px 30px;
+        border-bottom: 1px solid blue;
+        font-family: poppins;
+    }
+    #main {
+    background: #ebebeb;
+    padding: 40px 0;
+}
+/*ng clearfix the background was affected by the  floating which makes it small it can be removed by addi*/
+.content{
+    width: 980px;
+    margin: 0 auto;
+    
+}
+#main .articles{
+    float: left;
+    width: 650px;
+    background: white;
+}
+#main .articles .excerpt {
+    float: right;
+    width: 320px;
+}
+#main  .sidebar{
+    float:right;
+    width: 260px;
+    min-height: 100px;
+    background:white;
+    padding: 5px;
+}
+
+/* we want to add aborder ontop and make the text grey*/
+#main .articles .bottom {
+    border-top: 1px solid #999;
+    color: teal;
+    padding: 20px 0;
+    width: 100%;
+}
+#main .articles .bottom >div {
+float: left;
+padding: 0 20px;
+}
+.hi{
+    width: 300px;
+    height: 200px;
+}
+#main .articles .bottom .comments {
+    float: right;
+}
+#main .articles .inner {
+    padding: 10px;
+}
+#main .articles h2 {
+    margin: 0 0 20;
+}
+#main .sidebar input {
+padding: 10px;
+padding-right: 30px;
+    border: 1px solid #ddd;
+    width: 220px;
+}
+#main .article{
+margin-bottom: 20px;
+}
+#main .sidebar form{
+    position: relative;
+    
+}
+#main .sidebar input[type=submit]{
+background:url(icons.png);
+width: 25px;
+height:25px;
+border: none;
+padding: 0px;
+text-indent: -9999px;
+position: absolute;
+top: 5px;
+right: 0px;
+
+
+
+    }
+    #main .sidebar a{
+        color: #158ebf;
+    }
+    #main .sidebar ul li {
+        padding: 10px 0;
+    }
+    footer{
+        padding: 20px 0;
+    }
+    footer .copyright{
+        float: left;
+    }
+    footer .contact {
+        float: right;
+    }
+    footer a {
+        color: #8a0303;
+    }
+    #sidenav {
+        position: fixed;
+       right:-2px;
+        background: #8a0303;
+
+    
+    }
+    #sidenav.active{
+        right:100px;
+    }
+    sidebar ul li {
+        color:red;
+        list-style: none;
+        padding: 20px 30px;
+        border-bottom: 1px solid blue;
+        font-family: poppins;
+    }
+
+
+/* the symbol more than div it signifies all divs whose parent is the class bottom  main sigle post*/
+#main .singlepost{
+    float: left;
+    width: 650px;
+}
